@@ -1,0 +1,22 @@
+/* Publication list used on the home page and on /publications/ */
+.pub-item {
+  margin: 0 0 1.1em 0;
+
+  p {
+    margin: 0;
+    line-height: 1.45;
+  }
+}
+
+.pub-item__title {
+  font-weight: bold;
+
+  a {
+    text-decoration: none;
+  }
+}
+
+.pub-item__venue a {
+  margin-left: 0.25em;
+  text-decoration: none;
+}

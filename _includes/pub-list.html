@@ -1,0 +1,20 @@
+{% comment %}
+  All publications, grouped in the order of publication_category in _config.yml.
+  Use {% include pub-list.html headings=true %} to print the category titles.
+{% endcomment %}
+{% assign pubs = site.publications | sort: "date" | reverse %}
+{% for category in site.publication_category %}
+  {% assign title_shown = false %}
+  {% for post in pubs %}
+    {% if post.category != category[0] %}
+      {% continue %}
+    {% endif %}
+    {% if include.headings %}
+      {% unless title_shown %}
+        <h2>{{ category[1].title }}</h2>
+        {% assign title_shown = true %}
+      {% endunless %}
+    {% endif %}
+    {% include pub-item.html %}
+  {% endfor %}
+{% endfor %}
