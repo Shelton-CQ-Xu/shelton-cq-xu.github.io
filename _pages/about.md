@@ -29,7 +29,7 @@ Publications
 Ongoing work
 ======
 
-* Factor vector quantile autoregression for high-dimensional time series: nonparametric vector quantile autoregression carried out in a low-dimensional factor space, with predictive regions lifted back to the original series.
+* Factor vector quantile autoregression for high-dimensional time series: nonparametric vector quantile autoregression carried out in a low-dimensional factor space, with predictive regions lifted back to the original series. [[repository]](https://github.com/Shelton-CQ-Xu/factor-vqar)
 
 Contact
 ======
