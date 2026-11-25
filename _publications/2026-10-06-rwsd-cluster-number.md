@@ -6,7 +6,7 @@ permalink: /publication/2026-10-06-rwsd-cluster-number
 date: 2026-10-06
 authors: "<b>Chenqin Xu</b> and Yisha Yao"
 venue: "arXiv:2610.09153"
-note: "Under review."
+note: "To be submitted to a SIAM journal."
 arxivurl: "https://arxiv.org/abs/2610.09153"
 citation: "Xu, C. and Yao, Y. (2026). Relative Wasserstein spatial depth for cluster number selection in distributional data. arXiv:2610.09153."
 ---
